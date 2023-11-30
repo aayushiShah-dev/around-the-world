@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
+import pkg from "../../../package.json";
 
+const proxy = pkg.proxy;
 const CountryInfo = () => {
   const [country, setCountry] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -12,7 +14,7 @@ const CountryInfo = () => {
   useEffect(() => {
     const getCountryByName = async () => {
       try {
-        const res = await fetch(`/name/${countryName}`);
+        const res = await fetch(`${proxy}/name/${countryName}`);
 
         if (!res.ok) throw new Error("Country Not found!");
         const data = await res.json();
