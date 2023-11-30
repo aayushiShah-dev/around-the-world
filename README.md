@@ -37,13 +37,13 @@ This project involves creating a React frontend that interacts with a NodeJS bac
    Ensure both frontend and backend are running.
    Open the browser and go to http://localhost:3000 to access the application.
 
-## 🔗 Live URL
+## Live URL
 
-Link : https://around-the-world-client.vercel.app/
+Link 🔗 : https://around-the-world-client.vercel.app/
 
 ## Vercel Deployment
 
-Backend : https://around-the-world-server.vercel.app/
+Backend : https://around-the-world-server.vercel.app/api
 Frontend : https://around-the-world-client.vercel.app/
 
 ## Features
@@ -54,7 +54,7 @@ Frontend : https://around-the-world-client.vercel.app/
 
 # Hi, I'm Aayushi! 👋
 
-A passionate tech enthusiast who recently earned a Master's degree from Trinity College Dublin
+A passionate tech enthusiast who recently graduated with a Master's degree from Trinity College Dublin
 
 ## Let's Connect
 
@@ -62,6 +62,4 @@ If you have any feedback, please reach out to me at
 shahaayushi.work@gmail.com
 
 or
-connect with me at
-
-https://www.linkedin.com/in/aayushishah11/
+connect with me at https://www.linkedin.com/in/aayushishah11/
