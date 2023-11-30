@@ -4,15 +4,23 @@ This project involves creating a React frontend that interacts with a NodeJS bac
 
 ## Code Structure
 
-backend:
-&nbsp;Utilize Express to create an API.
-&nbsp;Fetch country information from the REST Countries API.
-&nbsp;Send information to the frontend.
-frontend:
-&nbsp;Input country name.
-&nbsp;Send request to backend on input change.
-&nbsp;Display information received from the backend.
-README.md
+- backend
+
+Utilize Express to create an API.
+
+Fetch country information from the REST Countries API.
+
+Send information to the frontend.
+
+- frontend
+
+Input country name.
+
+Send request to backend on input change.
+
+Display information received from the backend.
+
+- README.md
 
 ## Steps to Set Up and Run the Project
 
