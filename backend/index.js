@@ -1,5 +1,5 @@
-var express = require("express");
-cors = require("cors");
+var express = require("express"),
+  cors = require("cors");
 
 const axios = require("axios");
 const app = express();
