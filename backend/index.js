@@ -1,6 +1,9 @@
-const express = require("express");
+var express = require("express");
+cors = require("cors");
+
 const axios = require("axios");
 const app = express();
+app.use(cors());
 
 app.get("/api", async (req, res) => {
   try {
