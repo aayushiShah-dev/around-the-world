@@ -6,19 +6,19 @@ This project involves creating a React frontend that interacts with a NodeJS bac
 
 - backend
 
-Utilize Express to create an API.
+  Utilize Express to create an API.
 
-Fetch country information from the REST Countries API.
+  Fetch country information from the REST Countries API.
 
-Send information to the frontend.
+  Send information to the frontend.
 
 - frontend
 
-Input country name.
+  Input country name.
 
-Send request to backend on input change.
+  Send request to backend on input change.
 
-Display information received from the backend.
+  Display information received from the backend.
 
 - README.md
 
