@@ -3,6 +3,10 @@ import SearchInput from "../Search/SearchInput";
 import FilterCountry from "../Filter/FilterRegion";
 import { Link } from "react-router-dom";
 
+import pkg from "../../../package.json";
+
+const proxy = pkg.proxy;
+
 const AllCountries = () => {
   const [countries, setCountries] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -10,7 +14,7 @@ const AllCountries = () => {
 
   const getAllCountries = async () => {
     try {
-      const res = await fetch(`/api`);
+      const res = await fetch(`${proxy}/api`);
 
       if (!res.ok) throw new Error("Something went wrong");
       const data = await res.json();
@@ -20,12 +24,13 @@ const AllCountries = () => {
     } catch (error) {
       setIsLoading(false);
       setError(error.message);
+      console.log(error);
     }
   };
 
   const getCountryByName = async (countryName) => {
     try {
-      const res = await fetch(`/name/${countryName}`);
+      const res = await fetch(`${proxy}/name/${countryName}`);
 
       if (!res.ok) throw new Error("No country found!");
       const data = await res.json();
@@ -39,7 +44,7 @@ const AllCountries = () => {
 
   const getCountryByRegion = async (regionName) => {
     try {
-      const res = await fetch(`/region/${regionName}`);
+      const res = await fetch(`${proxy}/region/${regionName}`);
 
       if (!res.ok) throw new Error("No such region found!");
       const data = await res.json();
