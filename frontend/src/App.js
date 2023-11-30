@@ -9,7 +9,7 @@ function App() {
     <>
       <header className="header">
         <div className="container">
-          <h5>Where in the world ?</h5>
+          <h5>Explore the World</h5>
         </div>
       </header>
       <div className="container">
